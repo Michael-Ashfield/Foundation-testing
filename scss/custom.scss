@@ -1,0 +1,105 @@
+
+.logocol{
+    color: $secondary;
+}
+
+.logocol2{
+    color: $dark-gray;
+}
+
+.top-bar{
+    
+    a{
+        color: $secondary;
+    }
+    
+    h1{
+        color: $dark-gray;
+    }
+   
+    span{
+        color: $secondary;
+        
+    }
+}
+
+.yogadesc{
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid $primary;
+    border-bottom: 1px solid $primary;
+}
+
+.showcase{
+    background: url('../img/yoga-wide-large2.jpg') no-repeat;
+    min-height: 450px;
+    
+    
+    .showcase-box{
+        margin: 50px 30px;
+        
+    }
+    
+    .showcase-top{
+        padding: 10px 15px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background: $primary;
+        color: $white;
+        
+        h3{
+            border-bottom: 1px solid $white;
+        }
+    }
+    
+    .showcase-bottom{
+        background: $light-gray;
+        padding: 10px 15px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        a {
+            color: $white;
+        }
+        .pricing{
+            font-size: 10px;
+            span{
+                background: $secondary;
+                border-radius: 3px;
+                color: $white;
+                padding: 10px 20px;
+                font-size: 18px;
+                margin-right: 10px;
+            }
+            
+        }
+    }
+}
+
+.memberships{
+    
+    .cell{
+        text-align: center;
+        border: 1px solid $dark-gray;
+        border-radius: 10px;
+        background-color: $light-gray;
+        padding: 5px 10px;
+        margin-top: 20px;
+    }
+    
+    .membershipfooter{
+        padding-top: 20px;
+        font-size: 12px;
+        .logocol{
+            font-size: 20px;
+        }
+    }
+    
+    li{
+        border-bottom: 1px solid $primary;
+    }
+    
+    h3{
+        color: $secondary;
+    }
+
+}
