@@ -103,3 +103,35 @@
     }
 
 }
+
+.reviews{
+    margin-top: 50px;
+    text-align: center;
+    color: $black;
+    
+    .orbit-previous{
+        color: $secondary;
+    }
+    
+    .orbit-next{
+        color: $secondary;
+    }
+    
+    .orbit-container{
+        padding: 0 50px;
+        
+        .starReview{
+            color: $secondary;
+            font-size: 20px;
+        }
+        
+        b{
+            font-size: 14px;
+        }
+    }
+    
+    .orbit-figure{
+        border: 1px solid black;
+    }
+}
+
