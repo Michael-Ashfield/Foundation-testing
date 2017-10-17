@@ -118,11 +118,11 @@
     }
     
     .orbit-container{
-        padding: 0 50px;
+        padding: 0 70px;
         
         .starReview{
             color: $secondary;
-            font-size: 20px;
+            font-size: 25px;
         }
         
         b{
@@ -132,6 +132,35 @@
     
     .orbit-figure{
         border: 1px solid black;
+    }
+    
+    .orbit-bullets{
+        margin-top: 15px;
+    }
+}
+
+footer{
+    font-size: 10px;
+    background-color: $light-gray;
+    
+    img{
+        width: 150px;
+        padding: 10px 20px;
+        float: right;
+    }
+    
+    .menu{
+        padding: 10px 20px;
+    }
+    
+    p{
+        padding-top: 110px;
+        margin-bottom: none;
+        text-align: center;
+    }
+    
+    a{
+        padding: 100px;
     }
 }
 
